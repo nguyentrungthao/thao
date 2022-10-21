@@ -1,0 +1,43 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('AB2_POT_TRIM.STEP',
+    '2020-06-25T00:56:06',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2017',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#2 = AXIS2_PLACEMENT_3D ( 'NONE', #10, #13, #18 ) ;
+#3 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #17, #20 ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#6 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#7 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #6 ) ;
+#8 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #4, 'design' ) ;
+#9 = PRODUCT_CONTEXT ( 'NONE', #5, 'mechanical' ) ;
+#10 = CARTESIAN_POINT ( 'NONE',  ( 0.0000000000000000000, 0.0000000000000000000, 0.0000000000000000000 ) ) ;
+#11 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #3 ) ;
+#12 = PRODUCT ( 'AB2_POT_TRIM', 'AB2_POT_TRIM', '', ( #9 ) ) ;
+#13 = DIRECTION ( 'NONE',  ( 0.0000000000000000000, 0.0000000000000000000, 1.000000000000000000 ) ) ;
+#14 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #1 ) ;
+#15 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #12 ) ) ;
+#16 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#17 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #26, .NOT_KNOWN. ) ;
+#18 = DIRECTION ( 'NONE',  ( 1.000000000000000000, 0.0000000000000000000, 0.0000000000000000000 ) ) ;
+#19 = PRODUCT_CONTEXT ( 'NONE', #6, 'mechanical' ) ;
+#20 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #1, 'design' ) ;
+#21 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #5 ) ;
+#22 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #12, .NOT_KNOWN. ) ;
+#23 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #24 ) ;
+#24 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #22, #8 ) ;
+#25 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #26 ) ) ;
+#26 = PRODUCT ( 'AB2_POT_TRIM', 'AB2_POT_TRIM', '', ( #19 ) ) ;
+ENDSEC;
+END-ISO-10303-21;
