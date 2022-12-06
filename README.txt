@@ -14,6 +14,9 @@ CÁC LỆNH GIT
 
     git init // khởi tạo git ở local(1 thư mục bên trong máy tính)
 
+THAO TÁC Add và Reset
+    git add -u: stages modified and deleted files only, NOT new files
+
 THAO TÁC TRÊN Branch
     git branch (tên nhánh mới)  // chỉ tạo ra nhánh mới 
     git checkout -b (tên nhánh mới) // tạo mới và chuyển sang nhánh đó 
