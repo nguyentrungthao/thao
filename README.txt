@@ -14,8 +14,19 @@ CÁC LỆNH GIT
 
     git init // khởi tạo git ở local(1 thư mục bên trong máy tính)
 
+
 THAO TÁC Add và Reset
     git add -u: stages modified and deleted files only, NOT new files
+
+THAO TÁC commit và cmt 
+    git commit // để vào trình gõ soạn mô tả chi tiết cho commit 
+                // NỘI DUNG 
+                    // hàng đầu: tiêu đề
+                    // hàng 2
+                    // hàng 3 nội dung mô tả chi tiết
+                // thoát khỏi trình gõ ấn ESC sau đó gõ :qa 
+                // (link:"https://www.reddit.com/r/vim/comments/1vqj4l/is_it_possible_to_silence_e173_n_more_files_to/")
+    git commit -m "nội dung" // để commit và thêm mô tả ngắn gọn cho commit 
 
 THAO TÁC TRÊN Branch
     git branch (tên nhánh mới)  // chỉ tạo ra nhánh mới 
